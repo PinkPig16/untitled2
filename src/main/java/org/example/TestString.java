@@ -8,7 +8,7 @@ public class TestString {
                 "applicationContext.xml"
         );
 
-        PlayerMusic playerMusic = context.getBean("musicPlayerBean",PlayerMusic.class);
+        PlayerMusic playerMusic = context.getBean("playerMusic", PlayerMusic.class);
 
         playerMusic.playMusic();
 
